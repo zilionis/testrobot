@@ -27,8 +27,8 @@
 /web/uploads/
 
 # PHPUnit
-/phpunit.xml
-/phpunit.xml
+/app/phpunit.xml
+/app/phpunit.xml
 
 # Build data
 /build/
