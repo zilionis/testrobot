@@ -25,7 +25,7 @@ class DefaultControllerTest extends WebTestCase
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/');
+        $client->request('GET', '/');
 
         $this->assertEquals('UTF-8', $client->getResponse()->getCharset());
     }
