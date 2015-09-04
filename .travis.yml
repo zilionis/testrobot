@@ -13,4 +13,4 @@ install:
   - composer install -n
 
 script:
-  - ./bin/phpunit --configuration phpunit.xml
+  - ./bin/phpunit --configuration ./phpunit.xml
